@@ -48,7 +48,6 @@ newest build.
 - 👆 **No setup headaches** — open the app, tap connect, done.
 - 🔄 **Always up to date** — the app notifies you the moment a new build is out; nothing installs without your approval.
 - 🪶 **Light on your phone** — just ~20 MB, smooth on Android 7.0 and up, even older phones.
-- 💬 **Support in Persian** — real human help on Telegram ([@cloner42](https://t.me/cloner42)).
 
 ---
 
@@ -122,11 +121,6 @@ Older builds stay available on the [Releases page](https://github.com/ClxybyClon
 The hotspot HTTP/SOCKS5 proxies have no password by design, so **only turn them on on a hotspot you trust**, and switch them off when you're done. Anyone connected to your hotspot could use them.
 
 ---
-
-## 💬 Support
-
-- 🌐 [clonerr.ir](https://clonerr.ir)
-- ✈️ Telegram: [@cloner42](https://t.me/cloner42)
 
 <p align="center">
   <img src="assets/wave.svg" alt="" width="100%">
