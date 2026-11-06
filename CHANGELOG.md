@@ -5,6 +5,7 @@ Every version below is available as a GitHub Release with its signed APK.
 
 | Version | Date | Release notes |
 |---|---|---|
+| **1.0.25** | 2026-11-06 | [v1.0.25](https://github.com/ClxybyCloner/CLXY-Android/releases/tag/v1.0.25) |
 | **1.0.24** | 2026-11-06 | [v1.0.24](https://github.com/ClxybyCloner/CLXY-Android/releases/tag/v1.0.24) |
 | 1.0.15 | 2026-10-29 | [v1.0.15](https://github.com/ClxybyCloner/CLXY-Android/releases/tag/v1.0.15) |
 | 1.0.10 | 2026-10-29 | [v1.0.10](https://github.com/ClxybyCloner/CLXY-Android/releases/tag/v1.0.10) |
@@ -16,6 +17,12 @@ Every version below is available as a GitHub Release with its signed APK.
 | 1.0.4 | 2026-10-26 | [v1.0.4](https://github.com/ClxybyCloner/CLXY-Android/releases/tag/v1.0.4) |
 
 ---
+
+## 1.0.25 (2026-11-06)
+- Removed browser/WebView sign-in UI, account-page links, and website hand-offs; sign-in errors stay inside CLXY.
+- Retained direct sign-in, the PKCE OAuth retry, and token-refresh recovery.
+- ARM64-only update for `com.clxy.android`, version code `14147`, signed with the same certificate as 1.0.24.
+- This release does not claim every HTTP 406 rejection is fixed; sign-in should be retested in-app.
 
 ## 1.0.24 (2026-11-06)
 
