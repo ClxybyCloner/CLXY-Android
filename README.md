@@ -30,12 +30,13 @@ newest build.
 
 ## ⬇️ Download
 
-**Latest: 1.0.25**, released November 6, 2026
+**Latest: 1.0.26**, released November 6, 2026
 
-- 📦 [Download the APK (direct link)](https://github.com/ClxybyCloner/CLXY-Android/releases/download/v1.0.25/CLXY-1.0.25-Android-arm64-v8a.apk)
+- 📦 [Download the ARM64 APK](https://github.com/ClxybyCloner/CLXY-Android/releases/download/v1.0.26/CLXY-1.0.26-Android-arm64-v8a.apk)
+- [View the SHA-256 checksum](https://github.com/ClxybyCloner/CLXY-Android/releases/download/v1.0.26/SHA256SUMS.txt)
 - 🗂️ [Browse all releases](https://github.com/ClxybyCloner/CLXY-Android/releases)
 
-> ⚠️ Only download CLXY from this repository. Links from anywhere else are not official.
+The source code is available under GPLv3 in the [separate public source repository](https://github.com/ClxybyCloner/CLXY-Android-public-source).
 
 ---
 
@@ -76,13 +77,13 @@ A subscription is required to use CLXY.
 On a computer, calculate the APK's SHA-256:
 
 ```bash
-sha256sum CLXY-1.0.25-Android-arm64-v8a.apk
+sha256sum CLXY-1.0.26-Android-arm64-v8a.apk
 ```
 
 Compare the output with this expected hash:
 
 ```text
-69a436723759c6431b4bec15eea96d63d3094a001bcf183a7227b41573a04a62  CLXY-1.0.25-Android-arm64-v8a.apk
+6a49bc2594ab3f622374dae6c7e25344764ecfa3b1aab89971b0123592a28177  CLXY-1.0.26-Android-arm64-v8a.apk
 ```
 
 If they match, the file is exactly what we published.
@@ -102,17 +103,17 @@ confirm the install yourself. The app never installs anything behind your back.
 | | |
 |---|---|
 | Package | `com.clxy.android` |
-| Version / version code | `1.0.25` / `14147` |
+| Version / version code | `1.0.26` / `14148` |
 | Architecture | `arm64-v8a` |
 | Minimum Android | 7.0 (API 24) |
-| Size | ~19.3 MB |
+| Size | 20.5 MB |
 
 ---
 
 ## ❓ FAQ
 
-**Is the source code here?**
-No. This is a *distribution* repository — signed builds and update metadata only. The source code is not published.
+**Where is the source code?**
+The public GPLv3 source is in the [CLXY Android source repository](https://github.com/ClxybyCloner/CLXY-Android-public-source). This repository holds the signed app releases and their checksums.
 
 **I need an older version.**
 Older builds stay available on the [Releases page](https://github.com/ClxybyCloner/CLXY-Android/releases).
@@ -128,5 +129,4 @@ The hotspot HTTP/SOCKS5 proxies have no password by design, so **only turn them 
 
 ## 📜 Terms
 
-© CLXY. All rights reserved. Please don't re-upload the app builds elsewhere —
-link people here instead, so everyone always gets the genuine, verified build.
+The source and app are distributed under GPLv3. See the public source repository for the license and source code. Official signed releases and checksums are published here.

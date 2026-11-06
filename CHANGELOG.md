@@ -5,6 +5,7 @@ Every version below is available as a GitHub Release with its signed APK.
 
 | Version | Date | Release notes |
 |---|---|---|
+| **1.0.26** | 2026-11-06 | [v1.0.26](https://github.com/ClxybyCloner/CLXY-Android/releases/tag/v1.0.26) |
 | **1.0.25** | 2026-11-06 | [v1.0.25](https://github.com/ClxybyCloner/CLXY-Android/releases/tag/v1.0.25) |
 | **1.0.24** | 2026-11-06 | [v1.0.24](https://github.com/ClxybyCloner/CLXY-Android/releases/tag/v1.0.24) |
 | 1.0.15 | 2026-10-29 | [v1.0.15](https://github.com/ClxybyCloner/CLXY-Android/releases/tag/v1.0.15) |
@@ -17,6 +18,14 @@ Every version below is available as a GitHub Release with its signed APK.
 | 1.0.4 | 2026-10-26 | [v1.0.4](https://github.com/ClxybyCloner/CLXY-Android/releases/tag/v1.0.4) |
 
 ---
+
+## 1.0.26 (2026-11-06)
+
+- Added a selectable in-app browser sign-in method. Email and password sign-in remains available.
+- Added account backup import and export, HTTP/1.1 transport, IP-version selection and a configurable TUN MTU.
+- Adjusted several sign-in challenge requests. This does not confirm that every 406 response is fixed.
+- ARM64 only, package `com.clxy.android`, version code `14148`. The existing signing certificate is unchanged.
+- Sign-in and VPN use have not been tested on a real device.
 
 ## 1.0.25 (2026-11-06)
 - Removed browser/WebView sign-in UI, account-page links, and website hand-offs; sign-in errors stay inside CLXY.

@@ -31,12 +31,13 @@
 
 ## ⬇️ دانلود
 
-**آخرین نسخه: 1.0.25** — منتشرشده در ۶ نوامبر ۲۰۲۶
+**آخرین نسخه: 1.0.26** (۶ نوامبر ۲۰۲۶)
 
-- 📦 [دانلود APK (لینک مستقیم)](https://github.com/ClxybyCloner/CLXY-Android/releases/download/v1.0.25/CLXY-1.0.25-Android-arm64-v8a.apk)
+- 📦 [دانلود APK نسخهٔ ARM64](https://github.com/ClxybyCloner/CLXY-Android/releases/download/v1.0.26/CLXY-1.0.26-Android-arm64-v8a.apk)
+- [مشاهدهٔ هش SHA-256](https://github.com/ClxybyCloner/CLXY-Android/releases/download/v1.0.26/SHA256SUMS.txt)
 - 🗂️ [مشاهده‌ی همه‌ی نسخه‌ها](https://github.com/ClxybyCloner/CLXY-Android/releases)
 
-> ⚠️ CLXY را فقط از همین ریپو دانلود کنید. لینک‌های هر جای دیگری رسمی نیستند.
+سورس عمومی CLXY با مجوز GPLv3 در [مخزن جداگانهٔ سورس](https://github.com/ClxybyCloner/CLXY-Android-public-source) است. فایل امضاشده و هش آن هم در هر انتشار قرار دارد.
 
 ---
 
@@ -79,7 +80,7 @@ CLXY رابط کاربری Flutter را با یک هسته‌ی شبکه‌ی Go
 <div dir="ltr">
 
 ```bash
-sha256sum CLXY-1.0.25-Android-arm64-v8a.apk
+sha256sum CLXY-1.0.26-Android-arm64-v8a.apk
 ```
 
 </div>
@@ -89,7 +90,7 @@ sha256sum CLXY-1.0.25-Android-arm64-v8a.apk
 <div dir="ltr">
 
 ```text
-69a436723759c6431b4bec15eea96d63d3094a001bcf183a7227b41573a04a62  CLXY-1.0.25-Android-arm64-v8a.apk
+6a49bc2594ab3f622374dae6c7e25344764ecfa3b1aab89971b0123592a28177  CLXY-1.0.26-Android-arm64-v8a.apk
 ```
 
 </div>
@@ -111,17 +112,17 @@ CLXY به‌صورت دوره‌ای بخش **Releases** همین ریپو را 
 | | |
 |---|---|
 | بسته | `com.clxy.android` |
-| نسخه / کد نسخه | `1.0.25` / `14147` |
+| نسخه / کد نسخه | `1.0.26` / `14148` |
 | معماری | `arm64-v8a` |
 | حداقل اندروید | 7.0 (API 24) |
-| حجم | حدود ۱۹.۳ مگابایت |
+| حجم | حدود ۲۰٫۵ مگابایت |
 
 ---
 
 ## ❓ سؤالات پرتکرار
 
-**سورس‌کد این‌جاست؟**
-نه. این یک ریپوی *انتشار* است — فقط بیلدهای امضاشده و متادیتای به‌روزرسانی. سورس‌کد منتشر نمی‌شود.
+**سورس‌کد کجاست؟**
+سورس عمومی GPLv3 در [مخزن سورس CLXY](https://github.com/ClxybyCloner/CLXY-Android-public-source) است. این ریپو نسخه‌های امضاشده و هش آن‌ها را نگه می‌دارد.
 
 **نسخه‌ی قدیمی‌تر می‌خواهم.**
 نسخه‌های قدیمی در صفحه‌ی [Releases](https://github.com/ClxybyCloner/CLXY-Android/releases) در دسترس می‌مانند.
@@ -137,7 +138,6 @@ CLXY به‌صورت دوره‌ای بخش **Releases** همین ریپو را 
 
 ## 📜 شرایط استفاده
 
-© CLXY. تمامی حقوق محفوظ است. لطفاً بیلدهای اپ را جای دیگری آپلود نکنید —
-به‌جای آن لینک همین‌جا را بدهید تا همه همیشه نسخه‌ی اصلی و تأییدشده را بگیرند.
+سورس و اپ تحت GPLv3 منتشر شده‌اند. مجوز و کد سورس در مخزن عمومی در دسترس است. فایل‌های امضاشدهٔ رسمی و هش آن‌ها در این ریپو منتشر می‌شوند.
 
 </div>
