@@ -5,7 +5,8 @@ Every version below is available as a GitHub Release with its signed APK.
 
 | Version | Date | Release notes |
 |---|---|---|
-| **1.0.15** | 2026-10-29 | [v1.0.15](https://github.com/ClxybyCloner/CLXY-Android/releases/tag/v1.0.15) |
+| **1.0.24** | 2026-11-06 | [v1.0.24](https://github.com/ClxybyCloner/CLXY-Android/releases/tag/v1.0.24) |
+| 1.0.15 | 2026-10-29 | [v1.0.15](https://github.com/ClxybyCloner/CLXY-Android/releases/tag/v1.0.15) |
 | 1.0.10 | 2026-10-29 | [v1.0.10](https://github.com/ClxybyCloner/CLXY-Android/releases/tag/v1.0.10) |
 | 1.0.9 | 2026-10-27 | [v1.0.9](https://github.com/ClxybyCloner/CLXY-Android/releases/tag/v1.0.9) |
 | 1.0.8 | 2026-10-27 | [v1.0.8](https://github.com/ClxybyCloner/CLXY-Android/releases/tag/v1.0.8) |
@@ -15,6 +16,11 @@ Every version below is available as a GitHub Release with its signed APK.
 | 1.0.4 | 2026-10-26 | [v1.0.4](https://github.com/ClxybyCloner/CLXY-Android/releases/tag/v1.0.4) |
 
 ---
+
+## 1.0.24 (2026-11-06)
+
+- Added browser-based sign-in with CAPTCHA support when direct sign-in is rejected.
+- Improved VPN connection stability.
 
 ## 1.0.15 — 2026-10-29
 
@@ -44,7 +50,7 @@ Home-screen redesign, built around a new connection experience:
 
 - Separate SOCKS5 proxy for hotspot-connected devices (default port `11812`); the HTTP proxy stays on `11811`.
 - Both proxies bind only to the selected private hotspot IP. Main CLXY proxy settings are untouched.
-- SOCKS5 passes TCP CONNECT only (no UDP ASSOCIATE); on the Mozilla route only destination ports `80`, `443`, `8080`, `8443` are allowed.
+- SOCKS5 passes TCP CONNECT only (no UDP ASSOCIATE). Some proxy routes allow only destination ports `80`, `443`, `8080`, and `8443`.
 
 ## 1.0.7 — 2026-10-27
 
@@ -57,7 +63,7 @@ Home-screen redesign, built around a new connection experience:
 
 ## 1.0.5 — 2026-10-27
 
-- New package `com.clxy.android` (version code `2124`) — first build under the CLXY identity.
+- New package `com.clxy.android` (version code `2124`).
 - Hotspot HTTP proxy listens only on the selected private IP — never on a wildcard.
 - 132 Flutter tests, code analysis, and Go 1.27.2 tests passed. Same signing certificate as the previous build.
 
@@ -65,5 +71,5 @@ Home-screen redesign, built around a new connection experience:
 
 ## 1.0.4 — 2026-10-26
 
-- First public CLXY-branded Android release, `arm64-v8a`.
+- First public CLXY Android release, `arm64-v8a`.
 - SHA-256: `4a6cce6f0fd16966a1c26e9e8c32fa59577b2d2619721cd4e776494e48186132`
