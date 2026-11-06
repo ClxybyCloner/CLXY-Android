@@ -31,9 +31,9 @@
 
 ## ⬇️ دانلود
 
-**آخرین نسخه: 1.0.19** — منتشرشده در ۲ نوامبر ۲۰۲۶
+**آخرین نسخه: 1.0.25** — منتشرشده در ۶ نوامبر ۲۰۲۶
 
-- 📦 [دانلود APK (لینک مستقیم)](https://github.com/ClxybyCloner/CLXY-Android/releases/download/v1.0.19/CLXY-1.0.19-Android-arm64-v8a.apk)
+- 📦 [دانلود APK (لینک مستقیم)](https://github.com/ClxybyCloner/CLXY-Android/releases/download/v1.0.25/CLXY-1.0.25-Android-arm64-v8a.apk)
 - 🗂️ [مشاهده‌ی همه‌ی نسخه‌ها](https://github.com/ClxybyCloner/CLXY-Android/releases)
 
 > ⚠️ CLXY را فقط از همین ریپو دانلود کنید. لینک‌های هر جای دیگری رسمی نیستند.
@@ -79,7 +79,7 @@ CLXY رابط کاربری Flutter را با یک هسته‌ی شبکه‌ی Go
 <div dir="ltr">
 
 ```bash
-sha256sum CLXY-1.0.19-Android-arm64-v8a.apk
+sha256sum CLXY-1.0.25-Android-arm64-v8a.apk
 ```
 
 </div>
@@ -89,7 +89,7 @@ sha256sum CLXY-1.0.19-Android-arm64-v8a.apk
 <div dir="ltr">
 
 ```text
-3c9b549ced7f7bbc1c66ef36c85effdbd146bc05402175ac97d687e5416ce53a  CLXY-1.0.19-Android-arm64-v8a.apk
+69a436723759c6431b4bec15eea96d63d3094a001bcf183a7227b41573a04a62  CLXY-1.0.25-Android-arm64-v8a.apk
 ```
 
 </div>
@@ -111,7 +111,7 @@ CLXY به‌صورت دوره‌ای بخش **Releases** همین ریپو را 
 | | |
 |---|---|
 | بسته | `com.clxy.android` |
-| نسخه / کد نسخه | `1.0.19` / `10141` |
+| نسخه / کد نسخه | `1.0.25` / `14147` |
 | معماری | `arm64-v8a` |
 | حداقل اندروید | 7.0 (API 24) |
 | حجم | حدود ۱۹.۳ مگابایت |
