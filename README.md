@@ -30,9 +30,9 @@ newest build.
 
 ## ⬇️ Download
 
-**Latest: 1.0.19**, released November 2, 2026
+**Latest: 1.0.25**, released November 6, 2026
 
-- 📦 [Download the APK (direct link)](https://github.com/ClxybyCloner/CLXY-Android/releases/download/v1.0.19/CLXY-1.0.19-Android-arm64-v8a.apk)
+- 📦 [Download the APK (direct link)](https://github.com/ClxybyCloner/CLXY-Android/releases/download/v1.0.25/CLXY-1.0.25-Android-arm64-v8a.apk)
 - 🗂️ [Browse all releases](https://github.com/ClxybyCloner/CLXY-Android/releases)
 
 > ⚠️ Only download CLXY from this repository. Links from anywhere else are not official.
@@ -76,13 +76,13 @@ A subscription is required to use CLXY.
 On a computer, calculate the APK's SHA-256:
 
 ```bash
-sha256sum CLXY-1.0.19-Android-arm64-v8a.apk
+sha256sum CLXY-1.0.25-Android-arm64-v8a.apk
 ```
 
 Compare the output with this expected hash:
 
 ```text
-3c9b549ced7f7bbc1c66ef36c85effdbd146bc05402175ac97d687e5416ce53a  CLXY-1.0.19-Android-arm64-v8a.apk
+69a436723759c6431b4bec15eea96d63d3094a001bcf183a7227b41573a04a62  CLXY-1.0.25-Android-arm64-v8a.apk
 ```
 
 If they match, the file is exactly what we published.
@@ -102,7 +102,7 @@ confirm the install yourself. The app never installs anything behind your back.
 | | |
 |---|---|
 | Package | `com.clxy.android` |
-| Version / version code | `1.0.19` / `10141` |
+| Version / version code | `1.0.25` / `14147` |
 | Architecture | `arm64-v8a` |
 | Minimum Android | 7.0 (API 24) |
 | Size | ~19.3 MB |
