@@ -25,7 +25,7 @@ repository, so if you're running CLXY, you're always one tap away from the
 newest build.
 
 <p align="center">
-  <img src="assets/wave.svg" alt="" width="100%">
+  <img src="assets/wave.svg" alt="" width="99%">
 </p>
 
 ## ⬇️ Download
