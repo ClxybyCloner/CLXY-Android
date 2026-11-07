@@ -79,7 +79,7 @@ Home-screen redesign, built around a new connection experience:
 
 ## 1.0.5 — 2026-10-27
 
-- New package `com.clxy.android` (version code `2124`).
+- New package `com.clxy.android` (version code `2124`)!
 - Hotspot HTTP proxy listens only on the selected private IP — never on a wildcard.
 - 132 Flutter tests, code analysis, and Go 1.27.2 tests passed. Same signing certificate as the previous build.
 
