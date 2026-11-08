@@ -62,6 +62,27 @@ The core supports HTTP/2 CONNECT over TLS and HTTP/3 CONNECT over QUIC for conne
 
 ---
 
+## Advanced VPN Routing
+
+This architecture combines Xray technology with the Mozilla VPN infrastructure to establish a multi-layered network communication path. Its primary goal is to improve traffic management flexibility, isolate network routes, and provide more precise control over inbound and outbound traffic.
+
+Features:
+
+* Multi-Layer Routing: Establishes a chained communication path between the VPN ingress and egress layers.
+* Mozilla VPN Integration: Leverages WireGuard infrastructure to manage outbound traffic routing.
+* Smart Traffic Routing: Directs traffic based on predefined routing policies.
+* Dedicated Tunnel Management: Provides independent control over the outbound tunnel and its connection status.
+* IP Leak Protection: Prevents exposure of the original server IP in the event of a tunnel failure.
+* Fault Handling & Recovery: Incorporates mechanisms for connection monitoring and automatic route recovery.
+
+Network Architecture:
+
+VLESS → Xray Core → Linux Routing → Mozilla VPN → Internet
+
+This architecture is designed to provide a flexible, scalable, and manageable networking infrastructure.
+
+---
+
 ## Install in 60 seconds
 
 1. **Download** the APK from the link above.
